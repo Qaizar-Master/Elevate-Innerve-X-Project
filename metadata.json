@@ -1,0 +1,8 @@
+{
+  "name": "Elevate",
+  "description": "A comprehensive 3D-enabled AI learning assistant. Upload chapters for study plans, ask questions with generated diagrams and videos, and track your academic mastery.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
