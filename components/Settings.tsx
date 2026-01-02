@@ -117,12 +117,12 @@ const Settings: React.FC = () => {
             >
                 <User size={18}/> Profile
             </button>
-            <button 
+            {/* <button 
                 onClick={() => setActiveTab('api_keys')}
                 className={`px-6 py-3 font-medium text-sm border-b-2 transition-colors flex items-center gap-2 whitespace-nowrap ${activeTab === 'api_keys' ? 'border-[#0A1A3F] dark:border-indigo-500 text-[#0A1A3F] dark:text-indigo-400' : 'border-transparent text-[#64748B] dark:text-slate-400 hover:text-[#0F172A] dark:hover:text-white'}`}
             >
                 <Key size={18}/> API Keys
-            </button>
+            </button> */}
             <button 
                 onClick={() => setActiveTab('security')}
                 className={`px-6 py-3 font-medium text-sm border-b-2 transition-colors flex items-center gap-2 whitespace-nowrap ${activeTab === 'security' ? 'border-[#0A1A3F] dark:border-indigo-500 text-[#0A1A3F] dark:text-indigo-400' : 'border-transparent text-[#64748B] dark:text-slate-400 hover:text-[#0F172A] dark:hover:text-white'}`}
